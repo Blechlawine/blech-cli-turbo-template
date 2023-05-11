@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/_template.json
+commands:
+  - yarn set version stable
+  - yarn config set nodeLinker node-modules
+  - git init
